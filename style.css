@@ -1,9 +1,10 @@
 .jumbotron {
     margin: 0;
-    background-image: url("img/islandphoto.jpg");
-    background-size: cover;
+    background-image: url("img/Toscana.jpg");
+    background-size: 100%;
+    color: rgb(253, 18, 18);
 }
 
 .navbar {
-    background-color: darkblue;
+    background-color: rgb(14, 0, 139);
 }
