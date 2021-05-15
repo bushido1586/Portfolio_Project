@@ -11,9 +11,13 @@
 
 body {
     font-family: 'Changa', sans-serif;
-    background-image: radial-gradient(#b5d9b7, #b5d9d8, #d9c0b5);
+    background-image: radial-gradient( #b5d9b7, #b5d9d8, #d9d8b5);
 }
 
 h2 {
     color: #032405;
+}
+
+h3 {
+    color: #230d04;
 }
