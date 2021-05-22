@@ -6,7 +6,6 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "npm run lite",
-        "scss": "node-sass -0 css/ css/",
         "lite": "lite-server"
     },
     "repository": {
