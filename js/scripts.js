@@ -1,10 +1,11 @@
 $(function() {
     $("#photoButton").click(function() {
         console.log("button clicked");
-        $("#listModal").modal("toggle")
-    })
+        $("#listModal").modal("toggle");
+    });
 
     $("#avilabilityButton").click(function() {
-        $("#reserveModal").modal("toggle")
+        console.log("button clicked");
+        $("#reserveModal").modal("toggle");
     });
 });

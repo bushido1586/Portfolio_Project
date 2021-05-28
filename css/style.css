@@ -39,3 +39,8 @@ img {
 #photoRights {
     color: #a01111;
 }
+
+.photoBody {
+    background-image: url("/img/colorfulBackground.jpg");
+    color: blueviolet;
+}

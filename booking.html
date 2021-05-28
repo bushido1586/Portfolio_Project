@@ -24,7 +24,7 @@
                     <h3>Take a trip with the pros!</h3>
                 </div>
                 <div class="col-5 align-self-center">
-                    <img class="img-fluid" src="img/plane.jpg">
+                    <img class="img-fluid btn" src="img/plane.jpg" id="photoButton">
                 </div>
             </div>
         </div>
@@ -40,12 +40,43 @@
                     <li class="nav-item"><a class="nav-link" href="gallery.html"><i class="fa fa-camera"></i>Photo Gallery</a> </li>
                     <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-plane"></i>Book</a></li>
                 </ul>
-                <span class="navbar-text ml-auto">
-                    <a role="button" data-toggle="modal" data-target="#login"><i class="fa fa-sign-in"></i> Login</a>
-                </span>
             </div>
         </div>
     </nav>
+
+    <div id="listModal" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Mailing List</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginEmail">Email address</label>
+                                    <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Etner Email">
+                                </div>
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <label class="form-check-label">Remember me</label>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                                    <button type="submit" class="btn btn-primary btn-sm ml-1">Join</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
         <div class="row">
             <div class="col">
