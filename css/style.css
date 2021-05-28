@@ -21,3 +21,17 @@ h2 {
 h3 {
     color: #230d04;
 }
+
+.modal-header {
+    background-color: #1188a0;
+}
+
+img {
+    height: 300px;
+    width: auto;
+}
+
+.site-footer {
+    background-image: linear-gradient(#a7ece9, rgb(216, 234, 238));
+    padding: 20px 0;
+}

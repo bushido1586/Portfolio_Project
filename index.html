@@ -40,27 +40,74 @@
                     <li class="nav-item"><a class="nav-link" href="gallery.html"><i class="fa fa-camera"></i>Photo Gallery</a> </li>
                     <li class="nav-item"><a class="nav-link" href="booking.html"><i class="fa fa-plane"></i>Book</a></li>
                 </ul>
-                <span class="navbar-text ml-auto">
-                    <a role="button" data-toggle="modal" data-target="#login"><i class="fa fa-sign-in"></i> Login</a>
-                </span>
             </div>
         </div>
     </nav>
+    <div id="listModal" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Mailing List</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginEmail">Email address</label>
+                                    <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Etner Email">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginPassword">Password</label>
+                                    <input type="password" class="form-control form-control-sm" id="loginPassword" placeholder="Password">
+                                </div>
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <label class="form-check-label">Remember me</label>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                                    <button type="submit" class="btn btn-primary btn-sm ml-1">Join</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-md-6">
                 <h2><strong>We don't do vacations, we do experiences!</strong></h2>
-                <p class="d-none d-sm-block">Have you ever wanted to explore anchient ruins? Or do you just need a photographer to jon in oyur adventure?</p>
+                <p class="d-none d-sm-block">Have you ever wanted to explore anchient ruins? Or do you just need a photographer to jon in your adventure?</p>
                 </br>
-                <h4><strong>Then we are the answer!</strong></h4>
+                <h4><strong>We can bring you to the best locations, take the best photos, and keep you safe.</strong></h4>
                 <p class="d-none d-sm-block">But...who are we? well we are a group of people that specialize in touring in various langues and as "rental" photographers</p>
+            </div>
+            <div class="col-md-6 align-self-center">
+                <img src="/img/pisa1.jpg" id="pisa1">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
 
             </div>
         </div>
     </div>
 
-    <footer>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
 
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
