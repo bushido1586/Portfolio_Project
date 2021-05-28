@@ -35,3 +35,7 @@ img {
     background-image: linear-gradient(#a7ece9, rgb(216, 234, 238));
     padding: 20px 0;
 }
+
+#photoRights {
+    color: #a01111;
+}
