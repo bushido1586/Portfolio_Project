@@ -15,7 +15,7 @@ body {
 }
 
 h2 {
-    color: #032405;
+    color: #e90fa0;
 }
 
 h3 {
@@ -41,6 +41,10 @@ img {
 }
 
 .photoBody {
-    background-image: url("/img/colorfulBackground.jpg");
+    background-image: url("/img/islandphoto.jpg");
     color: blueviolet;
+}
+
+.bookPhoto {
+    background-image: url(/img/colorfulBackground.jpg);
 }
