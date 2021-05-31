@@ -44,3 +44,8 @@ img {
     background-image: url("/img/colorfulBackground.jpg");
     color: blueviolet;
 }
+
+.phototext {
+    background-color: white;
+    opacity: .7;
+}
