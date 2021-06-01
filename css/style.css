@@ -1,52 +1,54 @@
     .jumbotron {
-    margin: 0;
-    color: rgb(83, 58, 5);
-    background-image: linear-gradient(to right, #099ac1, #0576da, #0532da);
-    font-family: 'Goblin One', cursive;
-}
-
-.navbar {
-    background-color: rgb(14, 0, 139);
-}
-
-body {
-    font-family: 'Changa', sans-serif;
-    background-image: radial-gradient( #b5d9b7, #b5d9d8, #d9d8b5);
-}
-
-h2 {
-    color: #e90fa0;
-}
-
-h3 {
-    color: #230d04;
-}
-
-.modal-header {
-    background-color: #1188a0;
-}
-
-img {
-    height: 300px;
-    width: auto;
-}
-
-.site-footer {
-    background-image: linear-gradient(#a7ece9, rgb(216, 234, 238));
-    padding: 20px 0;
-}
-
-#photoRights {
-    color: #a01111;
-}
-
-.photoBody {
-    background-image: url("/img/islandphoto.jpg");
-    color: blueviolet;
-}
-
-.bookPhoto {
-    background-image: url(/img/colorfulBackground.jpg);
+        margin: 0;
+        color: rgb(83, 58, 5);
+        background-image: linear-gradient(to right, #099ac1, #0576da, #0532da);
+        font-family: 'Goblin One', cursive;
+    }
+    
+    .navbar {
+        background-color: rgb(14, 0, 139);
+    }
+    
+    body {
+        font-family: 'Changa', sans-serif;
+        background-image: radial-gradient( #b5d9b7, #b5d9d8, #d9d8b5);
+    }
+    
+    h2 {
+        color: #e90fa0;
+    }
+    
+    h3 {
+        color: #230d04;
+    }
+    
+    .modal-header {
+        background-color: #1188a0;
+    }
+    
+    img {
+        height: 300px;
+        width: auto;
+    }
+    
+    .site-footer {
+        background-image: linear-gradient(#a7ece9, rgb(216, 234, 238));
+        padding: 20px 0;
+    }
+    
+    #photoRights {
+        color: #a01111;
+    }
+    
+    .photoBody {
+        background-image: url("/img/islandphoto.jpg");
+        color: blueviolet;
+    }
+    
+    .bookPhoto {
+        background-image: url(/img/colorfulBackground.jpg);
+    }
+    
     .phototext {
         background-color: white;
         opacity: .7;
