@@ -42,7 +42,6 @@
     
     .photoBody {
         background-image: url("/img/islandphoto.jpg");
-        color: blueviolet;
     }
     
     .bookPhoto {
@@ -52,4 +51,9 @@
     .phototext {
         background-color: white;
         opacity: .7;
+    }
+    
+    h1 {
+        font-weight: bold;
+        color: darkblue;
     }
