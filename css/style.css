@@ -1,4 +1,4 @@
-.jumbotron {
+    .jumbotron {
     margin: 0;
     color: rgb(83, 58, 5);
     background-image: linear-gradient(to right, #099ac1, #0576da, #0532da);
@@ -47,4 +47,7 @@ img {
 
 .bookPhoto {
     background-image: url(/img/colorfulBackground.jpg);
-}
+    .phototext {
+        background-color: white;
+        opacity: .7;
+    }
